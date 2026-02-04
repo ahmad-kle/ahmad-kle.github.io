@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    padding: 0 16px;
+    max-width: 400px;
+    .nav{
+        height: 68px;
+        display: flex;
+        align-items: center;
+
+        a{
+            color: #000000  ;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        i{
+            font-size: 30px;
+        }
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px 0;
+        border-bottom: 0.5px solid rgb(230, 225, 225);
+        border-top: 1px solid rgb(230, 225, 225);
+        margin-bottom: 16px;
+        
+        a{
+            text-decoration: none;
+            li{
+                list-style: none;
+                font-size: 18px;
+                color: #4B5563;
+            }
+        }
+    }
+    .sim_dow{
+        .sims{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 16px;
+
+            p{
+                font-size: 18px;
+                color: #4B5563;
+            }
+            a{
+                i{
+                    font-size: 25px;
+                }
+            }
+        }
+        .button{
+            /* max-width: 400px */
+            display: flex;
+            justify-content: center;
+            button{
+                max-width: 288px;
+                height: 36px;
+                background-color: #000000;
+                color: white;
+                padding: 6px 92px;
+                border-radius: 20px;
+                text-align: center;
+        }
+        }
+    }
+}
